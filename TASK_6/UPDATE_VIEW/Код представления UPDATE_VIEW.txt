@@ -1,0 +1,6 @@
+  
+CREATE VIEW ThirdView_UPDATE  
+AS  
+SELECT EM.Surname as 'Фамилия работника', EM.[Wage-rate] as 'Ставка работника'  
+FROM Employee as EM  
+WITH CHECK OPTION  

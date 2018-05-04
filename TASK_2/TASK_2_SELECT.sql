@@ -1,0 +1,1 @@
+SELECT Surname FROM Client Order by -id_client

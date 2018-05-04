@@ -1,0 +1,6 @@
+CREATE VIEW FirstView  
+AS  
+SELECT M.Name_material as 'Имя материала',P.Company_name as 'Имя производителя', OM.Cost as 'Цена материала'  
+FROM Order_material as OM  
+JOIN Material as M ON OM.id_material = M.id_material  
+JOIN Provider as P ON P.id_provider = M.id_provider  

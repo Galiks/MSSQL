@@ -1,0 +1,13 @@
+DELETE FROM [Atelier].[dbo].Client
+DELETE FROM [Atelier].[dbo].[Client's_Order]
+DELETE FROM [Atelier].[dbo].[Client's_Size]
+DELETE FROM [Atelier].[dbo].Clothing_model
+DELETE FROM [Atelier].[dbo].Comment
+DELETE FROM [Atelier].[dbo].Discount
+DELETE FROM [Atelier].[dbo].Employee
+DELETE FROM [Atelier].[dbo].[Employee's_specialization]
+DELETE FROM [Atelier].[dbo].Material
+DELETE FROM [Atelier].[dbo].Order_material
+DELETE FROM [Atelier].[dbo].Provider
+DELETE FROM [Atelier].[dbo].Specialization
+DELETE FROM [Atelier].[dbo].Type_of_work

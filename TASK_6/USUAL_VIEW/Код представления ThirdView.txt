@@ -1,0 +1,7 @@
+  
+CREATE VIEW ThirdView  
+AS  
+SELECT EM.Surname as 'Фамилия работника', EM.[Wage-rate] as 'Ставка работника', SP.Name_specialization as 'Специализация работника'   
+FROM Employee as EM  
+JOIN [Employee's_specialization] as ES ON ES.id_employee = EM.id_employee  
+JOIN Specialization as SP ON SP.id_specialization = ES.id_specialization  

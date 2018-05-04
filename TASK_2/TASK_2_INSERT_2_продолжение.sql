@@ -1,0 +1,1 @@
+ALTER TABLE Order_material ADD Cost money NOT NULL

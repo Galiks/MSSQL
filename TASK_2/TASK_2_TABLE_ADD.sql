@@ -1,0 +1,1 @@
+ALTER TABLE Clothing_model ADD [Name of model] varchar(50) NOT NULL 
